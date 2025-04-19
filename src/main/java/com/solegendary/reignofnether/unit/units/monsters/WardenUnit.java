@@ -123,9 +123,9 @@ public class WardenUnit extends Warden implements Unit, AttackerUnit {
 
     // endregion
 
-    final static public float attackDamage = 8.0f;
+    final static public float attackDamage = 12.0f;
     final static public float attacksPerSecond = 0.6f;
-    final static public float maxHealth = 150.0f;
+    final static public float maxHealth = 175.0f;
     final static public float armorValue = 0.0f;
     final static public float movementSpeed = 0.28f;
     final static public float attackRange = 2; // only used by ranged units or melee building attackers
@@ -146,7 +146,7 @@ public class WardenUnit extends Warden implements Unit, AttackerUnit {
     private final List<ItemStack> items = new ArrayList<>();
 
     public static final float SONIC_BOOM_DAMAGE = 75f;
-    public static final int SONIC_BOOM_RANGE = 10;
+    public static final int SONIC_BOOM_RANGE = 15;
     public static final int SONIC_BOOM_CHANNEL_TICKS = 2 * ResourceCost.TICKS_PER_SECOND;
 
     public WardenUnit(EntityType<? extends Warden> entityType, Level level) {
